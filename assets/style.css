@@ -1,0 +1,59 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    
+    
+}
+.logo {
+    
+}
+.herobox {
+    background-image: url(../images/thunderhero.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out
+    
+}
+
+
+
+.eatheading {
+    text-align: center;
+}
+
+.eat-image {
+    margin: 0;
+    width: 300px;
+    max-height: 300px;
+}
+
+.drinkheading {
+    text-align: center;
+}
+
+
+.drink-image {
+margin: 0;
+    width: 300px;
+    max-height: 300px;
+}
+
+.partyheading {
+    text-align: center;
+}
+
+
+.party-image {
+    margin: 0;
+    width: 300px;
+    
+     max-height: 300px;   
+}
+
+
