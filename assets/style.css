@@ -1,28 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
-
-
-.logo {
-              
-      margin-top: 50px;
-      background-image: url(../images/thunderroad-box-logo.png);
-    
-
-        width: 100%;
-        height: 150px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-    
-}
+/* Reset Main Secttions  */
 
 body {
 
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
     font-size: 100%;
     
     font-family: Roboto, sans-serif;
@@ -36,6 +19,7 @@ h1 {
    
     font-weight: 800;
 }
+
 h2 {
     
     font-weight: 800;
@@ -47,13 +31,33 @@ h4 {
 }
 
 
+/* Reset Main Secttions END  */
 
+
+
+/*   Main Page Sections ******/
+
+.logo {
+              
+      margin-top: 50px;
+      
+      background-image: url(../images/thunderlogo.png);
+    
+
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
 
 .headlinebox {
     
     text-align: center;
-     text-align: center;
+    text-align: center;
     padding-top: 30px;
+    
 }
 
 .headlinetext {
@@ -61,6 +65,7 @@ h4 {
     font-family: "Roboto", sans-serif;
     margin-top: 10px;
     font-size: 100px;
+   
     
 }
 
@@ -69,6 +74,68 @@ h4 {
     font-family: "Exo", sans-serif;
 }
 
+
+.headlinelocation {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50% em;
+}
+
+/*************   Section Formatting ************/
+
+.sectionheader {
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.booksection {
+  padding-top: 80px;
+  text-align: center;
+    
+}
+
+ .aboutsection {
+     padding-top: 50px;
+    
+     background-color: #3e4850;
+ }
+ 
+ .featuresection {
+     background-color: #ececf1;
+  
+ }
+ 
+ 
+ .locationcontactsection {
+     
+     padding-top: 70px;
+     
+ }
+ 
+ .mapimage {
+     text-align: center;
+     
+ }
+ 
+ .contactsection {
+     
+ }
+ 
+ .contactemail {
+     color: red;
+     font-size: 20px;
+ }
+ 
+ .staffsection {
+     padding-top: 70px;
+ }
+ 
+
+
+/********************************/
+/*    Images format         ****/
+/********************************/
 
 .herobox {
     background-image: url(../images/tr-hero-1024x682.jpg);
@@ -86,41 +153,138 @@ h4 {
       background-size: cover;
 }
 
-
-.headlinelocation {
-    
-    margin-top: 30px;
-    text-align: center;
-    font-size: 50% em;
-    
-   
-}
+.eatimage {
+              
+      margin-top: 50px;
+     
+        background-image: url(../images/thunder-eat.jpg);
 
 
+        width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-
-.eatheading {
-    text-align: center;
-    font-family: "Exo", sans-serif;
-}
-
-.eat-image {
-    margin: 0;
-    
-    width: 100%;
-    max-height: 300px;
-}
-
-.drinkheading {
-   text-align: center;
-   font-family: "Exo", sans-serif;
-}
-
-.booksection {
-  padding-top: 80px;
-  text-align: center;
     
 }
+
+
+.partyimage {
+              
+      margin-top: 50px;
+     
+        background-image: url(../images/thunder-party.jpg);
+
+
+        width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    
+}
+
+
+.drinkimage {
+              
+      margin-top: 50px;
+     
+        background-image: url(../images/thunder-drink.jpg);
+
+
+        width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+/********************************/
+/*   Footer image Section       */
+/********************************/
+
+.footerimage {
+       
+}
+
+.staffimage {
+              
+     
+        background-image: url(../images/trstaff.jpg);
+
+       margin-top:  50px;
+      width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+
+.burgerfooterimage {
+              
+
+     
+        background-image: url(../images/burger.jpg);
+          margin-top: 50px;
+      width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.djimage {
+              
+      margin-top: 50px;
+     
+        background-image: url(../images/trdj.jpg);
+
+
+        width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+.headimage {
+              
+      margin-top: 50px;
+     
+            background-image: url(../images/headimage.jpg);
+
+
+        width: 100%;
+        height: 500px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
+
+
+
+
+
+
+/***************************/
+/*    Format Buttons      **/
+/**************************/
 
 
 .menubutton {
@@ -131,44 +295,168 @@ h4 {
 }
 
 
-.drink-image {
-    margin: 0;
-    width: 100%;
-    max-height: 300px;
-      text-align: center;
-}
+.menu-image {
 
-
-
-
-.party-image {
-    margin: 0;
-    width: 100% ;
+    padding-left: 10px;
+    max-width: 500px;
+    height: 400px;
+    text-align: center;
     
-     max-height: 300px;   
-       text-align: center;
 }
 
+
+.feature-col {
+    text-align: center;
+    
+}
+
+.sectionheader {
+    font-size: 40px;
+    font-weight: 800;
+   text-align: center;
+ 
+   margin-bottom: 10px;
+}
+
+
+.about-header {
+     
+    padding-top: 20px;
+    
+    text-align: center;
+    
+}
+
+.about-text {
+   
+    padding-top: 5px;
+    
+    text-align: center;
+}
+
+
+.featuresection {
+    margin-top: 30px;
+    background-color: grey;
+}
+
+
+.bestburger-image {
+    margin-top: 0px;
+    padding-left: 10px;
+   width: 650px;
+    height: 400px;
+}
+
+.customerfeedback {
+    text-align: center;
+     margin-top: 20px;
+}
+
+.feedbackelement {
+    font-size: 18px;
+    text-align: center;
+}
+
+.inside-video {
+    margin-top: 20px;
+}
 
 .insidethunderroad {
-    
     width: 100%;
 }
 
 
+.feature-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+ 
+    padding-bottom: 20px;
+}
+
+.socialsection {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+
+.socialimage {
+    text-align: center;
+}
+
+
+.socialintro {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.vipcalltoaction {
+ padding-top: 70px;
+}
+
+.vipbox {
+   
+    margin-top: 50px;
+    margin-left; 10px;
+    
+    margin-right: 20px;
+    border: 5px solid grey;
+    padding-left: 20px;
+
+    
+}
+
+.vipform {
+    margin-top: 50px;
+}
 
 /*****************************************/
 /* ------   Media Queries --------------*/
 /*****************************************/
 
 
+@media screen and (max-width: 600px) {
+
+logo {
+              
+      margin-top: 1px;
+      background-image: url(../images/thunderlogo.png);
+    
+
+        width: 90%;
+        height: 20px;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    
+}
+    
+}
+
+
+
+
 @media screen and (max-width: 800px) {
 
-   
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 800;
+}    
+    
+    
     
 .headlinetext {
     color: red;    
-        
    }
    
  .headlinelocation  {
@@ -184,13 +472,28 @@ h4 {
     
    
 .herobox {
-   
-    min-height: 500px;
-    
+    min-height: 200px;
 }   
    
+
+
+.menu-image {
+
+    margin-top: : 10px;
+    margin-left: 32px;
+   
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+}
+
+
+
    
 }
+
 
 
 @media screen and (max-width: 1200px) {
