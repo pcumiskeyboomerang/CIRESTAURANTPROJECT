@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-         <link rel="stylesheet" href="assets/style.css" type="text/css" />
+        <link rel="stylesheet" href="assets/style.css" type="text/css" />
 
         
     </head>
@@ -18,54 +18,87 @@
   
     <header>
         
-        
-    
         <section class="container-fluid">
+         
+        <!--------- Nav Section --------------->         
             
-            <div class="row">
-                
-                 <div class = "logo col-sm-3 col-md-2 ">
-                    
-                 </div>
-                 
-                     
-                <div class="col-sm-12 col-lg-8 headlinebox">
-                    
-                     <div class="headlinetext">
-                          <h1>American Themed Eatery and Bar with Wings, Burgers, Fajitas and Steaks along witha  great Range of Beers and Cocktails </h1>
-                            
-                
+        <nav class="navbar navbar-expand-lg navbar-dark  ">
 
-                        <h2>Dublins Best Party Bar in the Heart of Temple Bar </h2>
-                    </div>
+               <a class="navbar-brand" href="index.html">
+                      <img src="./images/thunderlogo.png" alt="">
+                    </a>
+  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu </a>
+                      </li>
+                      
+                       <li class="nav-item">
+                        <a class="nav-link" href="#About"> About Us</a> </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#featured"> Featured</a> </a>
+                      </li>
+                      
+                       <li class="nav-item">
+                        <a class="nav-link" href="#getintouch"> Get in Touch </a> </a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#insidethunderroad"> Inside ThunderRoad Cafe </a> </a>
+                      </li>
+                      
+                        <li class="nav-item">
+                        <a class="nav-link" href="#social"> Social </a> </a>
+                      </li>
+                      
+                    </ul>
                     
-                </div>
-                     
-                <div class="col-sm-12 col-lg-2 headlinelocation">
-                    <h4>Address: Fleet Street, Temple Bar, Dublin 2. </h4>
-                    <h4>Hours: 12:30 - 23:30 Every Day </h4>         
-                    <h4>Email: reservations@Thunderroadcafe.com </h4>
-                    <h4> Call us on +353 1 6794057 </h4>
-                </div>
-            
-            </div>
+                  </div>
+            </nav>
+                
+        
             
         </section>
     
     </header>
     
+    <! ---------- Hero Box ----------->
+
     
-    <section class="herobox container-fluid">
+    <section class="container-fluid herobox">
+        
+        <div class= "headlinebox">
+              <div class="headlinetext">
+                    <h2 class="headline">American Themed Eatery and Bar with Wings, Burgers, Fajitas and Steaks along witha  great Range of Beers and Cocktails </h2>
+ 
+                    <h2 class="tagline">Dublins Best Party Bar in the Heart of Temple Bar </h2>
+            </div>
+        </div>
+
+        <!---- Book Section  Open Table Script --->
+        
         <div class = "booksection">
              <script type='text/javascript' src='//www.opentable.ie/widget/reservation/loader?rid=118275&type=standard&theme=standard&iframe=true&overlay=false&domain=ie&lang=en-IE'></script>
         </div>
         
         <div class = "menubutton">
-            <a href="#link" class="btn-lg btn-danger" role="button">Check out our Menu</a>
+            <a href="./menu.html" class="btn-lg btn-danger" role="button">Check out our Menu</a>
         </div>
+        
+       
 
     </section>
-    
     
     
 
@@ -75,289 +108,284 @@
     <!---        About Section --------->
     <!---------------------------------->
     
-    <section class='container-fluid aboutsection'>
+    <section class='About container-fluid aboutsection'>
        
-            <div class="sectionheader"> 
-            
-                 <h1> About Us</h1>
-                 
+            <div id="About" class="sectionheader"> 
+                 <h2> About Us</h2>
             </div>
         
         
         <div class="row">
-        
+   
             <div class = "col-md-12 col-lg-4 ">
+                 <div class= "aboutimage eatimage"> </div>  
+     
+                <h2 class="about-header"> Eat </h2>
                 
-                <!-- <img class = "mx-auto d-block menu-image" src="images/thunder-eat.jpg"></img> -->
-                 <div class= "eatimage">
-                     
-                 </div>
-                <h1 class="about-header"> Eat </h1>
-                
-                <h5 class="about-text">
+                <p class="about-text">
                     Our menu features amazing Burgers, Wings Ribs as well as Top Grade Steak, Chicken and Fish Dishes. We also have a wide range of Vegan and Vegetarian options.
-                    
-                </h5>
-                
+                </p>
             </div>
             
             
-             <div class = "col-md-12 col-lg-4 ">
+            <div class = "col-md-12 col-lg-4 ">
      
-               <!-- <img class="mx-auto d-block menu-image" src="images/thunder-drink.jpg"></img> -->
-               
-               <div class= "drinkimage">
-                     
-                 </div>
-               
-               
-                   <h1 class='about-header'> Drink </h1>
+                <div class= "aboutimage drinkimage">  </div>
+
+                <h2 class='about-header'> Drink </h2>
                    
-                   <h5 class= "about-text"> Whatever your Poison we have It! </h5>
+                <p class= "about-text"> Whatever your Poison we have It! </p>
                    
-                 <h5 class= "about-text">Cocktails, Draft and Craft Beer, Shots and Wine </h5>
+                <p class= "about-text">Cocktails, Draft and Craft Beer, Shots and Wine </p>
             
             </div>
             
             
             
              <div class = "col-md-12 col-lg-4  ">
-                
-           
+  
+                 <div class= "aboutimage partyimage"> </div>
              
-             <div class= "partyimage">
-                     
-                 </div>
-             
-                 <h1 class=' about-header'> Party </h1>
+                 <h2 class=' about-header'> Party </h2>
                  
-                 <h5 class="about-text"> Dublin's Best Party Bar....</h5>
-                 <h5 class= "about-text"> Music,DJs, Theme nights and Dancing on the tables.! </h5>
+                 <p class="about-text"> Dublin's Best Party Bar....</p>
+                 <p class= "about-text"> Music,DJs, Theme nights and Dancing on the tables.! </p>
                  
             </div>
-        
-        </div>
-        
-     
-        
-    </section>
-    
-    
-    <!---------------------------------->
-    <!--- Location  ------------->
-    <!---------------------------------->
-    
-    <section class="container-fluid ">
-        
-        
-        <div class="row featuresection">
-            <div class= "col">
-                <div class = "feature-text"> Awarded Ireland's Best Restaurant Burger 2018-2019</div>
-                
-                <img class= " mx-auto d-block bestburger-image" src="images/WinnersNational_Burger_Day.png"></img>
-                
-            </div>
-            
-            
-            <div class= "col inside-video">
-               
-                
-                <iframe src="https://player.vimeo.com/video/328014160?title=0&byline=0&portrait=0" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                 <div class = "feature-text"> Inside Thunderoad Cafe </div>
-            </div>
-            
-            <div class= "col customerfeedback">
-              
-                <div class = "feature-text"> Customer Feedback </div>
-                
-                
-                <p class="feedbackelement"> "Amazing Food And Drink"</p>
-                
-                <p class="feedbackelement"> "Best Dink Ever"</p>
-                
-                <p class="feedbackelement"> "Service was Fantastic"</p>
-                
-                <p class="feedbackelemeny"> "Great for a Family Day out"</p>
-                
-                
-            </div>
-            
-            
-        </div>
-        
-    </section>
-    
-    
-    
-    <section class="container-fluid ">
-        
-        
-        <div class="row locationcontactsection">
-            
-            <div class= "col mapimage">
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.1400349651162!2d-6.263403783527818!3d53.345569185650525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e835587b513%3A0x3b58dd5f476481dc!2sThunder+Road+Caf%C3%A9!5e0!3m2!1sen!2sie!4v1558194506560!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
-            </div>
-            
             
         
-            
-            <div class= "col section">
-                
-                <h3>
-                Email <a class="contactemail" href="mailto:info@thunderroadcafe.com">Info@Thunderroadcafe.com </a>
-                </h3>
-              
-                <h3> phone: +353 1 6794057 </h3>
-
-                <h3>Address: Fleet Street, Temple Bar, Dublin 2. </h3>
-            
-                <h3>  Hours: 12pm - Late Every Day! </h3>
-                
-            </div>
-            
-            
-        </div>
+        </div> <!- End Image Row >
         
-    </section>
-    
-        
-    <!---------------------------------->
-    <!---        VIP Section --------->
-    <!---------------------------------->
-    
-    <section class="vipclubsection">
        
-        <div class="row vipbox">
-            
-            <div class='col'>
-           
-                <img class = "mx-auto d-block menu-image" src="images/trvip.png"></img> 
-                
-            </div>
-        
-               <Div class ='col vipcalltoaction'>
-                   <h2 class="vipcalltoaction"> Join our VIP Club </h2>
-                   
-               </Div>
-           
-            <div class="col vipform">
-                        
-                <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="30FEA77E7D0A9B8D7616376B90063231316F8851FCB60DC591DDD071EAA08F41ADC5C692E32744263E89580FAD3DAF9DA46C45EC58235B2650C4819FFB2DE45F">	
-                <p>
-                    <label for="fieldName">Name</label>
-                    <br />
-                    <input id="fieldName" name="cm-name" type="text" />
-                </p>
-                <p>
-                    <label for="fieldEmail">Email</label>
-                    <br />
-                    <input id="fieldEmail" name="cm-fplly-fplly" type="email" class="js-cm-email-input"
-                    required />
-                </p>
-                <p>
-                    <button class="js-cm-submit-button" type="submit">Join </button>
-                </p>
-                </form>
-                
-            </div>
-            
-        </div>
-        
+    </section>
     
-     </section>
-     
-     
-     
-      <!---------------------------------->
-    <!--- Social Sectionm ------------->
+    
+    
+    
+    <!---------------------------------->
+    <!--- Featured Section  ------------->
     <!---------------------------------->
     
-    <section class= "socialsection">
+    <section id="featured" class="featuresection container-fluid ">
         
-         <div class="row">
-             <div class="col socialintro">
-                 <h1 class="socialintro"> Lets Get Social </h1>
-             </div>
+  
+            
+            
+            <div class="row">
+               
+                  <div class="col sectionheader"> 
+                     <h2> Featured</h2>
+                </div>
+            </div>
+            
+            <div class="row">
              
-         </div>
+                <div class="col burgerawardtext">
+                    <h2 class="col"> Awarded Ireland's Best Burger 2018-2019</h2>
+                </div>
+               
+               <div class="col bestburgeraward">
+                    <img src="./images/burger-award.jpg"></img>
+                </div>
+                    
+                <div class= "col customerfeedback">
+                  
+                    <div class = "feature-text"> Customer Feedback </div>
+                    
+                    <p class="feedbackelement"> "Amazing Food And Drink"</p>
+                    
+                    <p class="feedbackelement"> "Best Drink Ever"</p>
+                    
+                    <p class="feedbackelement"> "Service was Fantastic"</p>
+                    
+                    <p class="feedbackelement"> "Great for a Family Day out"</p>
+                    
+                </div>
+                
+            </div>
         
+            
+    </section>
+    
+ 
+    
+        
+    <!---------------------------------->
+    <!---       Get In Touch Sectopm--------->
+    <!---------------------------------->
+    
+    <section id="getintouch" class="getintouchsection container-fluid">
+        
+          <div class="row">
+               
+                  <div class="col sectionheader"> 
+                     <h2> Get in Touch </h2>
+                </div>
+            </div>
+       
         <div class="row">
             
-
-            <div class="col socialimage">
-
-            <a href="https://www.facebook.com/ThunderRoadCafe"> <img class = "socialsite" src="images/facebook.png"></img>  </a>
             
+               <div class ="col-md-6 ">
+                   
+                   <div class= "vipcalltoaction">
+                   
+                       <h3> Join our VIP Club </h3>
+                       <p> Receive  Special Offers and Exclusive Invites</p>
+                       
+                                        
+                           <form >
+                              <div class="form-group">
+                                <label for="InputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                              </div>
+                              <div class="form-group">
+                                <label for="InputName">Password</label>
+                                <input type="name" class="form-control" id="InputName" placeholder="Name">
+                              </div>
+                             
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                  </div>
+               </div>
+            
+        
+            <div class= "contactdetails col-md-4">
+                
+                <h3> Contact Details </h3>
+                <p>
+                Email <a class="contactemail" href="mailto:info@thunderroadcafe.com">Info@Thunderroadcafe.com </a>
+                </p>
+              
+                <p> phone: +353 1 6794057 </p>
+
+                <p>Address: Fleet Street, Temple Bar, Dublin 2. </p>
+            
+                <p>  Hours: 12pm - Late Every Day! </p>
+                
             </div>
             
-            <div class="col socialimage">
-
-            <a href="https://www.instagram.com/thunderroad_cafe/"> <img class = "socialsite" src="images/instagram.png"></img>  </a>
+        </div>
+    
+        <!---------------------------------->
+        <!---Map  Section  ------------->
+        <!---------------------------------->
+     
+        <div class="row mapsection ">
             
+            <div class= "col mapimage">
+                
+                <h3> Location Map</h3>
+            
+                
+                <img class="locationmap" src="./images/tr-map.jpg"></img>
+                  
             </div>
+                
             
-              <div class="col socialimage">
-
-            <a href="https://www.youtube.com/channel/UCZF1GwT5VIHr6RzW7CfFvmQ"> <img class = "socialsite" src="images/youtube.png"></img>  </a>
-            
-            </div>
-      
         </div>
         
-        
-        
-        
-        
-        
     </section>
-    
-    
+     
+     
     
         
     <!---------------------------------->
-    <!--- Staff Sectionm ------------->
+    <!--- Inside Thunder Road --------->
     <!---------------------------------->
         
-    <section class= "staffsection">
+    <section id="insidethunderroad" class= "insidethunderroadsection container-fluid">
         
         <div class= "row">
-            <div class="col sectionheader"> 
-                
-                     <h1> At ThunderRoad Cafe .... The Staff are part of the Party</h1>
-            </div>
+             
+                <div class="col">
+                     <div class="sectionheader"> Inside ThunderRoadCafe </div>
+                     
+                   <h3 class="row justify-content-center"> Meet our Staff</h3>
+                 </div>
+            
         </div>
         
         
        <div class= "row ">
             
-            <div class= " staffimage col-sm-12 col-md-6 col-lg-3  ">
+            <div class= " footerimage staffimage col-sm-12 col-md-6 col-lg-3  ">
             </div>
             
-            
-            <div class= "burgerfooterimage col-sm-12 col-md-6 col-lg-3 ">
+            <div class= "footerimage burgerfooterimage col-sm-12 col-md-6 col-lg-3 ">
             </div>
         
-             <div class= "djimage col-sm-12 col-md-6 col-lg-3 ">
+             <div class= "footerimage djimage col-sm-12 col-md-6 col-lg-3 ">
             </div>
         
-            <div class= "headimage col-sm-12 col-md-6 col-lg-3 ">
+            <div class= "footerimage headimage col-sm-12 col-md-6 col-lg-3 ">
             </div>
        
        </div>
+       
+         <!--------------------------------->
+        <!--- Video Tour            --------->
+         <!---------------------------------->
+       
+        <div class="row">
+            
+                <div class= "col inside-video">
+                    
+                         <h3 class = "feature-text"> Taker a Tour  </h3>
+                    
+                    <iframe src="https://player.vimeo.com/video/328014160?title=0&byline=0&portrait=0" width="800" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    
+                </div>
+        </div>
         
     </section>
     
     
+    <!---------------------------------->
+    <!--- Social Sectionm ------------->
+    <!---------------------------------->
     
-    
-    
-    <footer>
+    <section id="social" class="socialsection container-fluid">
+        
+         <div class="row">
+             <div class="col socialintro">
+                 <h1 class="socialintro"> Let's Get Social </h1>
+             </div>
+             
+         </div>
+        
+        <div class="row">
+ 
+            <div class="col socialimage">
+                <a href="https://www.facebook.com/ThunderRoadCafe"> <img class = "socialsite" src="images/facebook.png"></img>  </a>
+            </div>
+            
+            <div class="col socialimage">
+                <a href="https://www.instagram.com/thunderroad_cafe/"> <img class = "socialsite" src="images/instagram.png"></img>  </a>
+            </div>
+            
+              <div class="col socialimage">
+                <a href="https://www.youtube.com/channel/UCZF1GwT5VIHr6RzW7CfFvmQ"> <img class = "socialsite" src="images/youtube.png"></img>  </a>
+            </div>
+      
+        </div>
         
         
-    </footer>
+    </section>
     
-    </body>
+    
+    <!---------------------------------->
+    <!--- Footer Sectionm ------------->
+    <!---------------------------------->
+   
+
+    
+        
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
     
 </html>

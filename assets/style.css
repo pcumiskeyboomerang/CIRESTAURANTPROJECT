@@ -2,6 +2,8 @@
 
 /* Reset Main Secttions  */
 
+
+
 body {
 
     background-color: black;
@@ -10,6 +12,8 @@ body {
     
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    margin: 0px;
+    padding: 0px;
     
     
 }
@@ -42,22 +46,34 @@ h4 {
       margin-top: 50px;
       
       background-image: url(../images/thunderlogo.png);
-    
+   
 
         width: 100%;
-        height: 150px;
+        height: 150px; 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
 }
 
+
 .headlinebox {
-    
+    width:100%;
+    padding: 0;
+    margin-left: : 0;
     text-align: center;
-    text-align: center;
+   
     padding-top: 30px;
     
+    
+    background-color: rgba(0, 0, 0, .3);
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+.locationtext {
+  font-size: 1.75em;
 }
 
 .headlinetext {
@@ -78,138 +94,120 @@ h4 {
 .headlinelocation {
     margin-top: 30px;
     text-align: center;
-    font-size: 50% em;
+    font-size: 50%;
 }
 
-/*************   Section Formatting ************/
-
-.sectionheader {
-    text-align: center;
-    font-weight: 800;
+.mainmenu {
+    padding-top: 70px;
+    color: white;
+    background-color: black;
 }
 
-
-.booksection {
-  padding-top: 80px;
-  text-align: center;
+.navbar-inverse {
+    color: white;
+    background-color: black;
     
 }
 
- .aboutsection {
-     padding-top: 50px;
-    
-     background-color: #3e4850;
- }
- 
- .featuresection {
-     background-color: #ececf1;
-  
- }
- 
- 
- .locationcontactsection {
-     
-     padding-top: 70px;
-     
- }
- 
- .mapimage {
-     text-align: center;
-     
- }
- 
- .contactsection {
-     
- }
- 
- .contactemail {
-     color: red;
-     font-size: 20px;
- }
- 
- .staffsection {
-     padding-top: 70px;
- }
- 
-
-
-/********************************/
-/*    Images format         ****/
-/********************************/
 
 .herobox {
-    background-image: url(../images/tr-hero-1024x682.jpg);
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    background-image: url(../images/trheroimage.jpg);
+
+     
     min-height: 600px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     
      /* Create the parallax scrolling effect */
+     
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      padding-bottom: 20px;
 }
 
+
+
+
 .eatimage {
-              
-      margin-top: 50px;
-     
-        background-image: url(../images/thunder-eat.jpg);
-
-
-        width: 100%;
-        height: 500px;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
+  
+    margin-top: 10px;
+    background-image: url(../images/thunder-eat.jpg);
     
+     height: 400px;
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 .partyimage {
-              
-      margin-top: 50px;
-     
-        background-image: url(../images/thunder-party.jpg);
-
-
-        width: 100%;
-        height: 500px;
-        
+         margin-top: 10px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
-    
+       
+      background-image: url(../images/thunder-party.jpg);
+      height: 400px;
 }
 
 
 .drinkimage {
-              
-      margin-top: 50px;
-     
-        background-image: url(../images/thunder-drink.jpg);
-
-
-        width: 100%;
-        height: 500px;
-        
+         margin-top: 10px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+     
+        background-image: url(../images/thunder-drink.jpg);
+          height: 400px;
+
 }
 
+.burgerawardtext {
+    text-align: center;
+    margin-top: 20px;
+    color: gold;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.bestburgeraward {
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+
+    width: 600px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.bestburger-image {
+    
+
+}
+
+.inside-video {
+    text-align: center;
+  
+}
 
 /********************************/
 /*   Footer image Section       */
 /********************************/
 
 .footerimage {
+    
+    
+     
+      width: 100%;
+        height: 300px;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
        
 }
 
@@ -218,61 +216,30 @@ h4 {
      
         background-image: url(../images/trstaff.jpg);
 
-       margin-top:  50px;
-      width: 100%;
-        height: 500px;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    
 }
 
 
 
 .burgerfooterimage {
-              
 
-     
         background-image: url(../images/burger.jpg);
-          margin-top: 50px;
-      width: 100%;
-        height: 500px;
         
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
 
 }
 
 .djimage {
               
-      margin-top: 50px;
+    ;
      
         background-image: url(../images/trdj.jpg);
 
-
-        width: 100%;
-        height: 500px;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
 }
 
-
 .headimage {
-              
-      margin-top: 50px;
-     
+ 
             background-image: url(../images/headimage.jpg);
 
-
-        width: 100%;
-        height: 500px;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
 }
 
 
@@ -310,13 +277,93 @@ h4 {
     
 }
 
+
+/***************************/
+/*    Section Formatting     **/
+/**************************/
+
+
+
 .sectionheader {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    
     font-size: 40px;
     font-weight: 800;
    text-align: center;
  
-   margin-bottom: 10px;
+   margin-bottom: 5px;
+  
 }
+
+
+
+
+
+.booksection {
+  padding-top: 80px;
+  text-align: center;
+    
+}
+
+ .aboutsection {
+     padding-top: 10px;
+     padding-bottom: 0px;
+     margin: 0px;
+     padding-right: 0px;
+    
+     background-color: #3e4850;
+ }
+ 
+ .featuresection {
+  
+     
+      margin-top: 0px;
+    background-color: grey;
+    width: 100%;
+    margin-left: -10px;
+   
+    padding-right: 0px;
+
+     
+   
+    
+ }
+ 
+ .getintouchsection {
+     margin-bottom: 20px;
+ }
+ 
+ 
+ .locationcontactsection {
+     
+
+      padding-top: 0px;
+     padding-bottom: 10px;
+     margin: 0px;
+     padding-right: 0px;
+     margin-bottom: 10px;
+     
+ }
+ 
+ .mapimage {
+     text-align: center;
+     margin-left: 
+     
+ }
+ 
+ 
+ 
+ .contactemail {
+     color: red;
+     font-size: 20px;
+ }
+ 
+ .staffsection {
+     padding-top: 70px;
+ }
+ 
 
 
 .about-header {
@@ -335,18 +382,18 @@ h4 {
 }
 
 
-.featuresection {
-    margin-top: 30px;
-    background-color: grey;
-}
 
 
-.bestburger-image {
-    margin-top: 0px;
-    padding-left: 10px;
-   width: 650px;
-    height: 400px;
+
+
+.bestburgeraward {
+    margin-left: 10px;
+    text-align: center;
+
+    width: auto;
+    height: auto;
 }
+
 
 .customerfeedback {
     text-align: center;
@@ -358,27 +405,63 @@ h4 {
     text-align: center;
 }
 
+
+
+
 .inside-video {
     margin-top: 20px;
 }
 
-.insidethunderroad {
+
+.insidethunderroadsection {
     width: 100%;
+
+     background-color: #b0b0b0;
+     padding-bottom: 50px;
+    
 }
 
-
-.feature-text {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 800;
- 
-    padding-bottom: 20px;
-}
 
 .socialsection {
     background-color: white;
     padding-bottom: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 100px;
+   
 }
+
+
+
+
+.feature-text {
+    margin:0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    width: 100%;
+ 
+    padding-bottom: 20px;
+}
+
+
+
+.mapheader {
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mapsection {
+  
+}
+
+.locationmap {
+
+margin-top: 30px;
+    
+}
+
 
 
 .socialimage {
@@ -395,18 +478,28 @@ h4 {
 }
 
 .vipcalltoaction {
- padding-top: 70px;
+
+
+ margin-left: 100px;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-bottom: 30px;
 }
+
+
+.contactdetails {
+    
+ margin-top: 10px;   
+ margin-left: 15%;
+
+
+}
+
 
 .vipbox {
    
-    margin-top: 50px;
-    margin-left; 10px;
-    
-    margin-right: 20px;
-    border: 5px solid grey;
-    padding-left: 20px;
-
+   text-align: center;
+   
     
 }
 
@@ -414,27 +507,108 @@ h4 {
     margin-top: 50px;
 }
 
+
+
+/*****************************************/
+/* ------   Menu Styling --------------*/
+/*****************************************/
+
+
+.menuintro {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+ 
+}
+ 
+
+
+.menuheading {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.menuitem {
+     font-size: 1em;
+    text-align: center;
+       font-weight: 400;
+       display: block;
+     
+     
+    
+}
+
+
+
+
 /*****************************************/
 /* ------   Media Queries --------------*/
 /*****************************************/
 
 
 @media screen and (max-width: 600px) {
-
-logo {
-              
-      margin-top: 1px;
-      background-image: url(../images/thunderlogo.png);
     
 
-        width: 90%;
-        height: 20px;
-       
-        background-repeat: no-repeat;
-        background-size: cover;
 
+.navbar-brand {
+    display:none;
+}
+
+
+.bestburgeraward {
+    display: none;
+}
+
+.mapsection {
+    display: none;
+}
+
+
+.eatimage {
+
+  height: 250px;    
+
+}
+
+
+.partyimage {
+    height: 250px;    
+
+     
+}
+
+
+.drinkimage {
+       height: 250px;    
+
+}
+
+
+
+.inside-video {
+    display: none;
     
 }
+
+
+.mapimage {
+   padding-top: 20px;
+   
+ }
+
+
+
+.footerimage {
+ 
+        height: 200px;
+        
+}
+
     
 }
 
@@ -443,23 +617,10 @@ logo {
 
 @media screen and (max-width: 800px) {
 
-h1 {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-h2 {
-    font-size: 16px;
-    font-weight: 800;
-}    
+  
     
-    
-    
-.headlinetext {
-    color: red;    
-   }
    
- .headlinelocation  {
+.headlinelocation  {
      display: none;
      
  }
@@ -469,17 +630,31 @@ h2 {
   text-align: center;
     
 }
+
+..bestburgeraward {
+    margin-left: 10px;
+    text-align: center;
+
+    width: 400px;
+    height: 100px;
+}
+
+
+.inside-video {
+    display: none;
     
+}
    
-.herobox {
-    min-height: 200px;
-}   
+.mapsection {
+    display: none;
+}
+
    
 
 
 .menu-image {
 
-    margin-top: : 10px;
+    margin-top:  10px;
     margin-left: 32px;
    
     width: 100%;
@@ -491,6 +666,32 @@ h2 {
 
 
 
+ .mapimage {
+     margin:0;
+     paddin:0:
+
+     text-align: centre;
+     height:400px;
+     width: 500px;
+     
+     
+     
+ }
+.insidethunderroadsection {
+   
+     padding-bottom: 0px;
+    
+}
+
+
+
+
+.footerimage {
+    
+        height: 300px;
+}
+
+
    
 }
 
@@ -498,11 +699,19 @@ h2 {
 
 @media screen and (max-width: 1200px) {
     
-    .herobox {
+.herobox {
    
     min-height: 600px;
     
 }   
+
+.footerimage {
+ 
+        height: 200px;
+        
+       
+}
+
     
 }
 
