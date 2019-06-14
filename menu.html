@@ -19,13 +19,11 @@
     <header>
         
         <section class="container-fluid">
-         
-        <!--------- Nav Section --------------->         
-            
-        <nav class="navbar navbar-expand-lg navbar-dark   ">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark   ">
 
-               <a class="navbar-brand" href="./index.html">
-                      <img src="./images/thunderlogo.png" class="logo" alt="">
+               <a class="navbar-brand " href="./index.html">
+                      <img src="./assets/images/thunderlogo.png" class="logo" alt="">
                     </a>
   
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +32,13 @@
                 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
+                      <li class="nav-item ">
                         <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
-                    
+                      
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="./menu.html">Menu <span class="sr-only">(current)</span></a>
+                      </li>
                       
                        <li class="nav-item">
                         <a class="nav-link" href="./index.html##About"> About Us</a> </a>
@@ -63,70 +64,75 @@
                     
                   </div>
             </nav>
-                
-
-            
+   
         </section>
     
     </header>
     
     
-    <menusection class="menusection container-fluid">
-   
-  
-        <div class="menuintro">
-            Our Menu
-        </div>   
-  
-        
-        <div class=" menuheading"> 
-            Starters 
-        </div>
-        
-
-
-        <div class="menuitem ">
-                   
-            <p> BBQ Chicken Wings </p>
-            <p> Caesar Salad </p>
-            <p> Nachhoc with Chilli Beef </p>
-            <p>Chilli Con Carne </p>
-            <p> Chicken Enchilada </p>
-            <p> Chicken Enchilada </p> 
-            
-        </div>
-  
-        
-        <div class="menuheading"> 
-            Mains
-        </div>
-        
-        
-        <div class="menuitem ">
-            <p>Original US Beef Burger </p>
-        
-            <p> Chicken Fillet Burger </p>
-         
-            <p> Ribs N Wings Combo </p>
-            <p>Chilli Con Carne </p>
-            <p> Chicken Enchilada </p>
-            <p> Chicken Enchilada </p> 
-      </div>
-  
+    <menusection class="container-fluid">
  
-        <div class="menuheading">
-             Desserts 
-        </div>
-
-         <div class="menuitem">
+      <div class="row centremenu">
+          <div class="col-12">
+                <h1> Our Menu</h1>
+            </div>
+      </div>
+      
         
-                <p> Desserts</p>
-                <p> Eton Mess</h2></p>
-                <p>Brownie (or Vegan Brownie)</p>
+       <div class="row menu">
+      
+                 
         
-                <p>Selection of Ice Cream </p>
-                
+            <!---------------------------------->
+            <!---      Starters        --------->
+            <!---------------------------------->   
+             
+            <div class="col-sm-12 col-md-4 centremenu ">
+                <h2 class="menuheading ">Starters</h2>
+                <ul class= "menuitems">
+                    <li> BBQ Chicken Wings</li>
+                      <li>Caesar Salad </li>
+                      <li>Nachhos with Chilli Beef</li>
+                      <li>Chilli Con Carne</li>
+                      <li>Chicken Enchilada </li>
+                </ul>
+            </div>
+      
+      
+            <!------------------------------------>
+            <!---      Mains             --------->
+            <!------------------------------------>    
+  
+            <div class="col-sm-12 col-md-4 centremenu ">
+                <h2 class= "menuheading" >Main Courses</h2>
+                <ul class= "menuitems">
+                    <li>Original US Beef Burger</li>
+                      <li>Chicken Fillet Burger</li>
+                      <li>Ribs N Wings Combo</li>
+                        <li>Rib Eye Steak</li>
+                        <li>Chicken Enchilada</li>
+                  </ul>
+            </div>
+        
+           <!------------------------------------>
+            <!---      Desserts          --------->
+            <!------------------------------------>    
+            
+            <div class="col-sm-12 col-lg-4 centremenu ">
+                <h2 class="menuheading">Dessert</h2>
+                <ul class= "menuitems">
+                    <li>Eton Mess</li>
+                     <li>Brownie (or Vegan Brownie)</li>
+                     <li>Relection of Ice Cream</li>
+                 </ul>
+            </div>
+      
         </div>
+      
+    </div>
+  
+        
+   
         
     
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -134,6 +140,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
      
  </menusection>
+
 
     
 </body>

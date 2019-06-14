@@ -55,20 +55,21 @@ h4 {
 .nav-link {
     font-size: 1.5em;
 }
+.navitem {
+    
+}
+
 
 
 .headlinebox {
-    width:100%;
-    padding: 0;
-    margin-left: : 0;
+
+ 
+    margin-left: 5%;
+    margin-right:5%;
     text-align: center;
-   
-    padding-top: 30px;
-    
-    
+ 
     background-color: rgba(0, 0, 0, .3);
-    margin-left: -10px;
-    margin-right: -10px;
+   
     
 }
 
@@ -80,8 +81,9 @@ h4 {
     
     font-family: "Roboto", sans-serif;
     margin-top: 10px;
-    font-size: 100px;
-   
+    font-size: 10px;
+   padding-left: 10%:
+   padding-right: 1%;
     
 }
 
@@ -112,9 +114,9 @@ h4 {
 
 .herobox {
 
-    background-image: url(../images/trheroimage.jpg);
+    background-image: url(../assets/images/trheroimage.jpg);
 
-     
+  ;
     min-height: 600px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -134,7 +136,7 @@ h4 {
 .eatimage {
   
     margin-top: 10px;
-    background-image: url(../images/thunder-eat.jpg);
+    background-image: url(../assets/images/thunder-eat.jpg);
     
      height: 400px;
      
@@ -150,7 +152,7 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
        
-      background-image: url(../images/thunder-party.jpg);
+      background-image: url(../assets/images/thunder-party.jpg);
       height: 400px;
 }
 
@@ -161,7 +163,7 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
      
-        background-image: url(../images/thunder-drink.jpg);
+        background-image: url(../assets/images/thunder-drink.jpg);
           height: 400px;
 
 }
@@ -176,17 +178,15 @@ h4 {
 
 .bestburgeraward {
     margin-top: 20px;
-    margin-left: 30px;
-    text-align: center;
-
-    width: 600px;
+     text-align: center;
+    
+   
     height: auto;
     margin-bottom: 40px;
 }
 
-.bestburger-image {
-    
-
+.burgerimagewidth {
+    max-width: 400px;
 }
 
 .inside-video {
@@ -214,7 +214,7 @@ h4 {
 .staffimage {
               
      
-        background-image: url(../images/trstaff.jpg);
+        background-image: url(../assets/images/trstaff.jpg);
 
     
 }
@@ -223,7 +223,7 @@ h4 {
 
 .burgerfooterimage {
 
-        background-image: url(../images/burger.jpg);
+        background-image: url(../assets/images/burger.jpg);
         
 
 }
@@ -232,13 +232,13 @@ h4 {
               
     ;
      
-        background-image: url(../images/trdj.jpg);
+        background-image: url(../assets/images/trdj.jpg);
 
 }
 
 .headimage {
  
-            background-image: url(../images/headimage.jpg);
+            background-image: url(../assets/images/headimage.jpg);
 
 }
 
@@ -285,7 +285,7 @@ h4 {
 
 
 .sectionheader {
-    padding: 10px;
+    padding-top: : 10px;
     margin-top: 20px;
     margin-left: 0;
     
@@ -384,8 +384,6 @@ h4 {
 
 
 
-
-
 .bestburgeraward {
     margin-left: 10px;
     text-align: center;
@@ -480,9 +478,6 @@ margin-top: 30px;
 .vipcalltoaction {
 
 
- margin-left: 100px;
- margin-left: 15%;
- margin-right: 15%;
  margin-bottom: 30px;
 }
 
@@ -490,7 +485,7 @@ margin-top: 30px;
 .contactdetails {
     
  margin-top: 10px;   
- margin-left: 15%;
+
 
 
 }
@@ -514,34 +509,29 @@ margin-top: 30px;
 /*****************************************/
 
 
-.menuintro {
-    text-align: center;
-    font-size: 4em;
-    font-weight: 800;
- 
-}
- 
+ .centremenu {
+   text-align: center;
+
+ }
 
 
 .menuheading {
     margin-top: 20px;
-    font-size: 2em;
-    font-weight: 800;
-    text-align: center;
-    display: block;
-    margin-bottom: 20px;
-
-}
-
-.menuitem {
-     font-size: 1em;
-    text-align: center;
-       font-weight: 400;
-       display: block;
-     
-     
+   
     
+   
+    margin-bottom: 10px;
+    
+
 }
+
+.menu li {
+    list-style: none;
+   
+     
+}
+
+
 
 
 
@@ -550,14 +540,31 @@ margin-top: 30px;
 /* ------   Media Queries --------------*/
 /*****************************************/
 
-
 @media screen and (max-width: 600px) {
+
+
+h2 {
+    font-size: 25px;
     
-
-
-.navbar-brand {
-    display:none;
 }
+
+.sectionheader {
+ 
+    
+    font-size: 20px;
+ 
+  
+}
+
+
+.headlinebox {
+
+    margin-left: 0px;
+    margin-right: 0px;
+  
+    
+}
+
 
 
 .bestburgeraward {
@@ -631,14 +638,11 @@ margin-top: 30px;
     
 }
 
-..bestburgeraward {
-    margin-left: 10px;
+
+
+.burgerawardtext {
     text-align: center;
-
-    width: 400px;
-    height: 100px;
 }
-
 
 .inside-video {
     display: none;
