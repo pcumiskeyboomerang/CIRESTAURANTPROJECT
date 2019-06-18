@@ -7,9 +7,9 @@ Original wireframe at   /Documentation/restaurntproject-wireframe.pdf
 
 The key goals of the new website are:
 
- Improve Mobile Web Experience
-  * Increase Bookings
-  * Encourage Customers to Join VIP Club (mail list)
+ * Improve Mobile Web Experience
+ * Increase Bookings
+ * Encourage Customers to Join VIP Club (mail list)
 
 Website statistics show that over 70% of the Web access for the existing site  is by mobile devices. Based on this the website  design us primary a “One Page” with a separate page for the restaurant menu.  This creates a seamless user experiences and minimises load/wait times.
 
@@ -91,10 +91,11 @@ on samll devies (70% if usage), the sequence of the sections was designed to pro
 
 The key technology elements we will use and link to are:
 
-. Html
-. Bootstrap 4
-. Opentable for booking (third party sofwar Javascript code provided )
-. Vimeo for Video Hosting
+* HTML
+* Bootstrap 4
+* javascript for Responsive Menu
+* Opentable for booking (third party sofwar Javascript code provided )
+* Vimeo for Video Hosting
 
 
 # Deployment
@@ -154,8 +155,6 @@ The site Was check on across Firefox, Safari and Google Chrome.
 Google Developer tools was used to test responsiveness across all devices.
 
 The website was also testing on iMac, Acer chromeBOOK Ipad , Samsung J5, Amazon Fire Table
-
-
 
 
 
