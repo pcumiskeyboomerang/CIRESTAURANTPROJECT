@@ -83,19 +83,29 @@ This section allows highlight fund and friendly staff and presents promotional v
 This sections highlights the restaurant’s social media presence and allows the customer to connect.
 
 
+Navigtaion Approach
+The website used a standard menu system with a callapses when as the devide size becomes smaller.
+I considered making the meny 'stick' to the top using but decided against this to maximise informaton we could prpvides
+on samll devies (70% if usage), the sequence of the sections was designed to provide key requirements (booking and vip signups) in as simple and intuitives manner as possible,
+
+
 
 
 # Technology
 
 The key technology elements we will use and link to are:
 
-
-- Bootstrap 4
-- Opentable for booking (third party sofware)
+. Html
+. Bootstrap 4
+. Opentable for booking (third party sofwar Javascript code provided )
+. Vimeo for Video Hosting
 
 
 # Deployment
-  The code is deployed to Git Hub and available at Git Pages
+
+  The code is deployed to Git Hub and available at Githibs Pages.
+  
+   The links below give direct access.
    
    Repositary: https://github.com/pcumiskeyboomerang/CIRESTAURANTPROJECT
    
@@ -106,16 +116,59 @@ The key technology elements we will use and link to are:
    
 # Testing
 
- A separate testing is provide. The core focus of the testing is navigation, and responsiveness.
-test_plan.pdf
+
+## Overview 
+
+The website design is primarily based on one page with a separate page for the restaurant menu.
+
+The key elements of testing were Navigation, Use of the booking form, Input Field Validation and responsiveness. Each section is discussed bellow, a detailrf Testing Checklist is also provided in the test documentation folder.
+
+
+## Navigation
+
+All menu options were tested to ensure the user is brought the to the correct section.
+The “Email’ links open up the default email manager.
+The Social Links (Youtube, Facebook and Instagram) all open the correct social page.
+
+## Bookings
+
+ “Opentable” a well established table booking system is used by the restaurant. I obtained a standard script to allow the ‘booking widget’ to be embedded in the system,
+ 
+ When the button is clicked an “open table” pages is opened the customer may book a table.
+
+This process was check to ensure a booking was fully completed,
+
+Note: As ‘open table” new page is opened and do not have access to open table code , in this version the customer doers not return to the restaurant website after completing their booking.
+ it is expected we will enhance the system to return at a later in a later version.
+
+
+## Input Form
+
+The input form capture email and name. 
+Both fields are required and the email must be have a valid format.
+The system was tested for blank field submissions and invalid email formats.
+The submit button does not currently operate as the script required is beyond the scope of the project. 
+
+
+
+## Responsiveness
+
+The site Was check on across Firefox, Safari and Google Chrome.
+
+Google Developer tools was used to test responsiveness across all devices.
+
+The website was also testing on iMac, Acer chromeBOOK Ipad , Samsung J5, Amazon Fire Table
+
+
+
 
 
 # Credits
 
-Image and Videos  by Thunderroad cafe
+Image and Videos  by Thunderroad cafe.
+Booking form provided by Opentable
 
 
 
 # Acknowledgments
-
-Booking script provided by open tale
+Assistance provided by Thunderroad is providing swebsite requirements

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* Reset Main Secttions  */
+
+
 
 
 
@@ -13,7 +14,8 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     margin: 0px;
-    padding: 0px;
+    padding: 0;
+
     
     
 }
@@ -48,6 +50,8 @@ h4 {
     width: 250px;
     height: auto;
     padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
    
     
 }
@@ -55,13 +59,24 @@ h4 {
 .nav-link {
     font-size: 1.5em;
 }
+
 .navitem {
     
 }
 
-.mainmenu {
+.navwidth {
     width: 100%;
 }
+
+
+.navbar {
+ padding-left: 1.5em;
+ padding-right: 0;
+ 
+}
+
+
+
 
 .headlinebox {
 
@@ -69,6 +84,7 @@ h4 {
     margin-left: 5%;
     margin-right:5%;
     text-align: center;
+    margin-top: 50px;
  
     background-color: rgba(0, 0, 0, .3);
    
@@ -82,7 +98,7 @@ h4 {
 .headlinetext {
     
     font-family: "Roboto", sans-serif;
-    margin-top: 10px;
+    margin-top: 50px;
     font-size: 10px;
    padding-left: 10%:
    padding-right: 1%;
@@ -102,9 +118,13 @@ h4 {
 }
 
 .mainmenu {
-    padding-top: 70px;
-    color: white;
-    background-color: black;
+   
+ width: 100%;
+ padding-right: 0;
+ padding-left: 0;
+ margin-right: 0;
+ margin-left: 0;
+   
 }
 
 .navbar-inverse {
@@ -118,7 +138,7 @@ h4 {
 
     background-image: url(../assets/images/trheroimage.jpg);
 
-  ;
+
     min-height: 600px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -362,9 +382,7 @@ h4 {
      font-size: 20px;
  }
  
- .staffsection {
-     padding-top: 70px;
- }
+
  
 
 
@@ -452,9 +470,7 @@ h4 {
     padding-bottom: 5px;
 }
 
-.mapsection {
-  
-}
+
 
 .locationmap {
 
@@ -478,8 +494,6 @@ margin-top: 30px;
 }
 
 .vipcalltoaction {
-
-
  margin-bottom: 30px;
 }
 
@@ -544,6 +558,13 @@ margin-top: 30px;
 
 @media screen and (max-width: 600px) {
 
+
+.body {
+
+    padding-top: 10px;
+    
+    
+}
 
 h2 {
     font-size: 25px;
@@ -680,9 +701,8 @@ h2 {
      height:400px;
      width: 500px;
      
-     
-     
  }
+ 
 .insidethunderroadsection {
    
      padding-bottom: 0px;
