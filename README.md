@@ -2,14 +2,14 @@
 
 The projects aim is create a website for Thunder Road cafe a restaurant in Dublin.
 
-Origiinal wireframe at  /restaurntproject-wireframe.pdf
+Original wireframe at   /Documentation/restaurntproject-wireframe.pdf
 
 
 The key goals of the new website are:
 
-        - Improve Mobile Web Experience
-        - Increase Bookings
-        - Encourage Customers to Join VIP Club (mail list)
+ Improve Mobile Web Experience
+  * Increase Bookings
+  * Encourage Customers to Join VIP Club (mail list)
 
 Website statistics show that over 70% of the Web access for the existing site  is by mobile devices. Based on this the website  design us primary a “One Page” with a separate page for the restaurant menu.  This creates a seamless user experiences and minimises load/wait times.
 
@@ -19,22 +19,18 @@ Website statistics show that over 70% of the Web access for the existing site  i
 We have identified 3 major use cases
 
 
-    - Customer With Booking Intent
+* Customer With Booking Intent
 
+  This Use Case represents a customer who knows the restaurant and accesses the website to book a table.  The goal heres is to reduce “friction’ in booking a table.
 
-        This Use Case represents a customer who knows the restaurant and accesses the website to book a table.  The goal heres is to reduce “friction’ in booking a table.
+* ‘Search” Customer
 
-
-    - ‘Search” Customer
+  This represents a customer who is looking for a restaurant to dine in “same day”, they will typically come from Google or Google Maps. 
+  The Goals here are to clearly communicate the restaurant brand message and identity and encourage the customer to book.
         
-        This represents a customer who is looking for a restaurant to dine in “same day”, they will typically come from Google or Google Maps. 
+* Tourist /Trip Advisor
 
-
-        The Goals here are to clearly communicate the restaurant brand message and identity and encourage the customer to book.
-        
-    - Tourist /Trip Advisor
-    
-        This Use Case represents tourists planning a trip to Dublin, perhaps weeks in advance. They will typically find the restaurant via Trip Advisor. Our primary goal is to encourage/allow the customer book a table, while our secondary goal is to motivate them to join the restaurant mail-list (VIP Club) from where they will receive promotions.
+  This Use Case represents tourists planning a trip to Dublin, perhaps weeks in advance. They will typically find the restaurant via Trip Advisor. Our primary goal is to encourage/allow the customer book a table, while our secondary goal is to motivate them to join the restaurant mail-list (VIP Club) from where they will receive promotions.
 
  
 
