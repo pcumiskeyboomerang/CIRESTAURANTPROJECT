@@ -161,7 +161,7 @@ h4 {
 .eatimage {
   
     margin-top: 10px;
-    background-image: url(../assets/images/thunder-eat.jpg);
+    background-image: url(../assets/images/thundereat.jpg);
     
      height: 400px;
      
@@ -188,7 +188,7 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
      
-        background-image: url(../assets/images/thunder-drink.jpg);
+        background-image: url(../assets/images/thunderdrinks.jpg);
           height: 400px;
 
 }
